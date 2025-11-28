@@ -1,0 +1,92 @@
+[
+  {
+    "task_id": 1,
+    "title": "Reverse a string",
+    "func_name": "reverse_string",
+    "initial_passed": true,
+    "used_repair": false,
+    "iterations": 0,
+    "final_passed": null
+  },
+  {
+    "task_id": 2,
+    "title": "Sum list (ignore non-numbers)",
+    "func_name": "sum_numbers",
+    "initial_passed": true,
+    "used_repair": false,
+    "iterations": 0,
+    "final_passed": null
+  },
+  {
+    "task_id": 3,
+    "title": "Safe divide",
+    "func_name": "safe_divide",
+    "initial_passed": true,
+    "used_repair": false,
+    "iterations": 0,
+    "final_passed": null
+  },
+  {
+    "task_id": 4,
+    "title": "Find longest word in sentence",
+    "func_name": "longest_word",
+    "initial_passed": false,
+    "used_repair": true,
+    "iterations": 3,
+    "final_passed": false
+  },
+  {
+    "task_id": 5,
+    "title": "Count character frequency",
+    "func_name": "char_frequency",
+    "initial_passed": true,
+    "used_repair": false,
+    "iterations": 0,
+    "final_passed": null
+  },
+  {
+    "task_id": 6,
+    "title": "Remove duplicates while preserving order",
+    "func_name": "unique_list",
+    "initial_passed": true,
+    "used_repair": false,
+    "iterations": 0,
+    "final_passed": null
+  },
+  {
+    "task_id": 7,
+    "title": "Validate email",
+    "func_name": "is_valid_email",
+    "initial_passed": false,
+    "used_repair": true,
+    "iterations": 3,
+    "final_passed": false
+  },
+  {
+    "task_id": 8,
+    "title": "Compute running average",
+    "func_name": "running_average",
+    "initial_passed": true,
+    "used_repair": false,
+    "iterations": 0,
+    "final_passed": null
+  },
+  {
+    "task_id": 9,
+    "title": "Find second largest",
+    "func_name": "second_largest",
+    "initial_passed": false,
+    "used_repair": true,
+    "iterations": 3,
+    "final_passed": false
+  },
+  {
+    "task_id": 10,
+    "title": "Balanced parentheses checker",
+    "func_name": "is_balanced",
+    "initial_passed": false,
+    "used_repair": true,
+    "iterations": 3,
+    "final_passed": false
+  }
+]

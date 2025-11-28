@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "title": "Reverse a string",
+    "description": "Write a function reverse_string(s) that reverses a string.",
+    "func_name": "reverse_string",
+    "tests": [
+      { "input": "hello", "expected": "olleh" },
+      { "input": "abc", "expected": "cba" },
+      { "input": "", "expected": "" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sum list (ignore non-numbers)",
+    "description": "Write sum_numbers(lst) that returns the sum of all integer or float values in lst and ignores all other types.",
+    "func_name": "sum_numbers",
+    "tests": [
+      { "input": [1, 2, 3], "expected": 6 },
+      { "input": [5, "x", 10], "expected": 15 },
+      { "input": ["a", "b", 5], "expected": 5 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Safe divide",
+    "description": "Write safe_divide(a, b). If b = 0 return the string 'zero division'. Otherwise return a/b.",
+    "func_name": "safe_divide",
+    "tests": [
+      { "input": [10, 2], "expected": 5.0, "multi_args": true },
+      { "input": [7, 2], "expected": 3.5, "multi_args": true },
+      { "input": [5, 0], "expected": "zero division", "multi_args": true }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Find longest word in sentence",
+    "description": "Write function longest_word(sentence) that returns the longest word. Ignore punctuation.",
+    "func_name": "longest_word",
+    "tests": [
+      { "input": "I love artificial intelligence!", "expected": "intelligence" },
+      { "input": "This is fun", "expected": "This" },
+      { "input": "", "expected": "" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Count character frequency",
+    "description": "Write char_frequency(s) that returns a dictionary mapping each character to its count.",
+    "func_name": "char_frequency",
+    "tests": [
+      { "input": "aab", "expected": { "a": 2, "b": 1 } },
+      { "input": "Mississippi", "expected": { "M": 1, "i": 4, "s": 4, "p": 2 } }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Remove duplicates while preserving order",
+    "description": "Write unique_list(lst) that removes duplicates but keeps order.",
+    "func_name": "unique_list",
+    "tests": [
+      { "input": [1, 2, 3, 2, 1], "expected": [1, 2, 3] },
+      { "input": [5, 5, 5, 5], "expected": [5] }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Validate email",
+    "description": "Write is_valid_email(email). A valid email has exactly one '@', at least one '.', and no spaces.",
+    "func_name": "is_valid_email",
+    "tests": [
+      { "input": "user@gmail.com", "expected": true },
+      { "input": "noatsign.com", "expected": false },
+      { "input": "bad@space email.com", "expected": false }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Compute running average",
+    "description": "Write running_average(lst) that returns list of averages for prefixes.",
+    "func_name": "running_average",
+    "tests": [
+      { "input": [1, 2, 3], "expected": [1.0, 1.5, 2.0] },
+      { "input": [5, 10], "expected": [5.0, 7.5] }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Find second largest",
+    "description": "Write second_largest(lst). If list has less than 2 unique values return null.",
+    "func_name": "second_largest",
+    "tests": [
+      { "input": [5, 3, 9, 9, 1], "expected": 5 },
+      { "input": [10], "expected": null },
+      { "input": [7, 7, 7], "expected": null }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Balanced parentheses checker",
+    "description": "Write is_balanced(s) to check if parentheses (), [], {} are balanced.",
+    "func_name": "is_balanced",
+    "tests": [
+      { "input": "()[]{}", "expected": true },
+      { "input": "([)]", "expected": false },
+      { "input": "{[()]}", "expected": true }
+    ]
+  },
+    {
+    "id": 11,
+    "title": "Parse CSV user data",
+    "func_name": "parse_user_csv",
+    "description": "Given a CSV line 'name,age,active', return a dict with keys 'name' (str), 'age' (int), and 'active' (bool). 'active' is 'true' or 'false' (case-insensitive). Trim whitespace. If age is not a valid integer, return None.",
+    "tests": [
+      {
+        "input": "Alice, 30, true",
+        "expected": { "name": "Alice", "age": 30, "active": true }
+      },
+      {
+        "input": "Bob,25,false",
+        "expected": { "name": "Bob", "age": 25, "active": false }
+      },
+      {
+        "input": "Charlie,notanint,true",
+        "expected": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Door state machine",
+    "func_name": "door_state",
+    "description": "Simulate a simple door state machine. Initial state is 'CLOSED'. Given a list of events, return the final state. Valid events: 'open', 'close', 'lock', 'unlock'. Rules: CLOSED -> 'open' -> OPEN; OPEN -> 'close' -> CLOSED; CLOSED -> 'lock' -> LOCKED; LOCKED -> 'unlock' -> CLOSED. All other transitions leave the state unchanged.",
+    "tests": [
+      {
+        "input": ["open", "close", "lock", "unlock"],
+        "expected": "CLOSED"
+      },
+      {
+        "input": ["lock", "unlock", "open"],
+        "expected": "OPEN"
+      },
+      {
+        "input": [],
+        "expected": "CLOSED"
+      }
+    ]
+  }
+]
+
+   

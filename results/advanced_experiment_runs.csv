@@ -1,0 +1,241 @@
+strategy,run_id,task_id,title,func_name,initial_passed,used_repair,iterations,final_passed,initial_static_issues,final_static_issues
+no_repair,1,1,Reverse a string,reverse_string,True,False,0,True,0,0
+no_repair,1,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+no_repair,1,3,Safe divide,safe_divide,True,False,0,True,0,0
+no_repair,1,4,Find longest word in sentence,longest_word,False,False,0,False,0,0
+no_repair,1,5,Count character frequency,char_frequency,True,False,0,True,0,0
+no_repair,1,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+no_repair,1,7,Validate email,is_valid_email,False,False,0,False,0,0
+no_repair,1,8,Compute running average,running_average,True,False,0,True,0,0
+no_repair,1,9,Find second largest,second_largest,False,False,0,False,0,0
+no_repair,1,10,Balanced parentheses checker,is_balanced,False,False,0,False,0,0
+no_repair,1,11,Parse CSV user data,parse_user_csv,False,False,0,False,0,0
+no_repair,1,12,Door state machine,door_state,False,False,0,False,0,0
+no_repair,2,1,Reverse a string,reverse_string,True,False,0,True,0,0
+no_repair,2,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+no_repair,2,3,Safe divide,safe_divide,True,False,0,True,0,0
+no_repair,2,4,Find longest word in sentence,longest_word,False,False,0,False,0,0
+no_repair,2,5,Count character frequency,char_frequency,True,False,0,True,0,0
+no_repair,2,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+no_repair,2,7,Validate email,is_valid_email,False,False,0,False,0,0
+no_repair,2,8,Compute running average,running_average,True,False,0,True,0,0
+no_repair,2,9,Find second largest,second_largest,False,False,0,False,0,0
+no_repair,2,10,Balanced parentheses checker,is_balanced,False,False,0,False,0,0
+no_repair,2,11,Parse CSV user data,parse_user_csv,False,False,0,False,0,0
+no_repair,2,12,Door state machine,door_state,False,False,0,False,0,0
+no_repair,3,1,Reverse a string,reverse_string,True,False,0,True,0,0
+no_repair,3,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+no_repair,3,3,Safe divide,safe_divide,True,False,0,True,0,0
+no_repair,3,4,Find longest word in sentence,longest_word,False,False,0,False,0,0
+no_repair,3,5,Count character frequency,char_frequency,True,False,0,True,0,0
+no_repair,3,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+no_repair,3,7,Validate email,is_valid_email,False,False,0,False,0,0
+no_repair,3,8,Compute running average,running_average,True,False,0,True,0,0
+no_repair,3,9,Find second largest,second_largest,False,False,0,False,0,0
+no_repair,3,10,Balanced parentheses checker,is_balanced,False,False,0,False,0,0
+no_repair,3,11,Parse CSV user data,parse_user_csv,False,False,0,False,0,0
+no_repair,3,12,Door state machine,door_state,False,False,0,False,0,0
+no_repair,4,1,Reverse a string,reverse_string,True,False,0,True,0,0
+no_repair,4,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+no_repair,4,3,Safe divide,safe_divide,True,False,0,True,0,0
+no_repair,4,4,Find longest word in sentence,longest_word,False,False,0,False,0,0
+no_repair,4,5,Count character frequency,char_frequency,True,False,0,True,0,0
+no_repair,4,6,Remove duplicates while preserving order,unique_list,False,False,0,False,0,0
+no_repair,4,7,Validate email,is_valid_email,False,False,0,False,0,0
+no_repair,4,8,Compute running average,running_average,True,False,0,True,0,0
+no_repair,4,9,Find second largest,second_largest,False,False,0,False,0,0
+no_repair,4,10,Balanced parentheses checker,is_balanced,False,False,0,False,0,0
+no_repair,4,11,Parse CSV user data,parse_user_csv,False,False,0,False,0,0
+no_repair,4,12,Door state machine,door_state,False,False,0,False,0,0
+no_repair,5,1,Reverse a string,reverse_string,True,False,0,True,0,0
+no_repair,5,2,Sum list (ignore non-numbers),sum_numbers,False,False,0,False,0,0
+no_repair,5,3,Safe divide,safe_divide,True,False,0,True,0,0
+no_repair,5,4,Find longest word in sentence,longest_word,False,False,0,False,0,0
+no_repair,5,5,Count character frequency,char_frequency,True,False,0,True,0,0
+no_repair,5,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+no_repair,5,7,Validate email,is_valid_email,False,False,0,False,0,0
+no_repair,5,8,Compute running average,running_average,True,False,0,True,0,0
+no_repair,5,9,Find second largest,second_largest,False,False,0,False,0,0
+no_repair,5,10,Balanced parentheses checker,is_balanced,False,False,0,False,0,0
+no_repair,5,11,Parse CSV user data,parse_user_csv,False,False,0,False,0,0
+no_repair,5,12,Door state machine,door_state,False,False,0,False,0,0
+repair_3,1,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_3,1,2,Sum list (ignore non-numbers),sum_numbers,False,True,3,False,0,0
+repair_3,1,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_3,1,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+repair_3,1,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_3,1,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_3,1,7,Validate email,is_valid_email,False,True,3,False,0,0
+repair_3,1,8,Compute running average,running_average,True,False,0,True,0,0
+repair_3,1,9,Find second largest,second_largest,False,True,3,False,0,0
+repair_3,1,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+repair_3,1,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+repair_3,1,12,Door state machine,door_state,False,True,3,False,0,0
+repair_3,2,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_3,2,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_3,2,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_3,2,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+repair_3,2,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_3,2,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_3,2,7,Validate email,is_valid_email,False,True,3,False,0,0
+repair_3,2,8,Compute running average,running_average,True,False,0,True,0,0
+repair_3,2,9,Find second largest,second_largest,False,True,3,False,0,0
+repair_3,2,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+repair_3,2,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+repair_3,2,12,Door state machine,door_state,False,True,3,False,0,0
+repair_3,3,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_3,3,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_3,3,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_3,3,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+repair_3,3,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_3,3,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_3,3,7,Validate email,is_valid_email,False,True,3,False,0,0
+repair_3,3,8,Compute running average,running_average,True,False,0,True,0,0
+repair_3,3,9,Find second largest,second_largest,False,True,3,False,0,0
+repair_3,3,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+repair_3,3,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+repair_3,3,12,Door state machine,door_state,False,True,3,False,0,0
+repair_3,4,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_3,4,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_3,4,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_3,4,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+repair_3,4,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_3,4,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_3,4,7,Validate email,is_valid_email,False,True,3,False,0,0
+repair_3,4,8,Compute running average,running_average,True,False,0,True,0,0
+repair_3,4,9,Find second largest,second_largest,False,True,3,False,0,0
+repair_3,4,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+repair_3,4,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+repair_3,4,12,Door state machine,door_state,False,True,3,False,0,0
+repair_3,5,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_3,5,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_3,5,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_3,5,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+repair_3,5,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_3,5,6,Remove duplicates while preserving order,unique_list,False,True,3,False,0,0
+repair_3,5,7,Validate email,is_valid_email,False,True,3,False,0,0
+repair_3,5,8,Compute running average,running_average,True,False,0,True,0,0
+repair_3,5,9,Find second largest,second_largest,False,True,3,False,0,0
+repair_3,5,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+repair_3,5,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+repair_3,5,12,Door state machine,door_state,False,True,3,False,0,0
+repair_5,1,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_5,1,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_5,1,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_5,1,4,Find longest word in sentence,longest_word,False,True,5,False,0,0
+repair_5,1,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_5,1,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_5,1,7,Validate email,is_valid_email,False,True,5,False,0,0
+repair_5,1,8,Compute running average,running_average,True,False,0,True,0,0
+repair_5,1,9,Find second largest,second_largest,False,True,5,False,0,0
+repair_5,1,10,Balanced parentheses checker,is_balanced,False,True,5,False,0,0
+repair_5,1,11,Parse CSV user data,parse_user_csv,False,True,5,False,0,0
+repair_5,1,12,Door state machine,door_state,False,True,0,False,0,0
+repair_5,2,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_5,2,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_5,2,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_5,2,4,Find longest word in sentence,longest_word,False,True,5,False,0,0
+repair_5,2,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_5,2,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_5,2,7,Validate email,is_valid_email,False,True,5,False,0,0
+repair_5,2,8,Compute running average,running_average,True,False,0,True,0,0
+repair_5,2,9,Find second largest,second_largest,False,True,5,False,0,0
+repair_5,2,10,Balanced parentheses checker,is_balanced,False,True,5,False,0,0
+repair_5,2,11,Parse CSV user data,parse_user_csv,False,True,5,False,0,0
+repair_5,2,12,Door state machine,door_state,False,True,5,False,0,0
+repair_5,3,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_5,3,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_5,3,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_5,3,4,Find longest word in sentence,longest_word,False,True,5,False,0,0
+repair_5,3,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_5,3,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_5,3,7,Validate email,is_valid_email,False,True,5,False,0,0
+repair_5,3,8,Compute running average,running_average,True,False,0,True,0,0
+repair_5,3,9,Find second largest,second_largest,False,True,5,False,0,0
+repair_5,3,10,Balanced parentheses checker,is_balanced,False,True,5,False,0,0
+repair_5,3,11,Parse CSV user data,parse_user_csv,False,True,5,False,0,0
+repair_5,3,12,Door state machine,door_state,False,True,5,False,0,0
+repair_5,4,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_5,4,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_5,4,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_5,4,4,Find longest word in sentence,longest_word,False,True,5,False,0,0
+repair_5,4,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_5,4,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_5,4,7,Validate email,is_valid_email,False,True,5,False,0,0
+repair_5,4,8,Compute running average,running_average,True,False,0,True,0,0
+repair_5,4,9,Find second largest,second_largest,False,True,5,False,0,0
+repair_5,4,10,Balanced parentheses checker,is_balanced,False,True,5,False,0,0
+repair_5,4,11,Parse CSV user data,parse_user_csv,False,True,5,False,0,0
+repair_5,4,12,Door state machine,door_state,False,True,5,False,0,0
+repair_5,5,1,Reverse a string,reverse_string,True,False,0,True,0,0
+repair_5,5,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+repair_5,5,3,Safe divide,safe_divide,True,False,0,True,0,0
+repair_5,5,4,Find longest word in sentence,longest_word,False,True,5,False,0,0
+repair_5,5,5,Count character frequency,char_frequency,True,False,0,True,0,0
+repair_5,5,6,Remove duplicates while preserving order,unique_list,True,False,0,True,0,0
+repair_5,5,7,Validate email,is_valid_email,False,True,5,False,0,0
+repair_5,5,8,Compute running average,running_average,True,False,0,True,0,0
+repair_5,5,9,Find second largest,second_largest,False,True,5,False,0,0
+repair_5,5,10,Balanced parentheses checker,is_balanced,False,True,5,False,0,0
+repair_5,5,11,Parse CSV user data,parse_user_csv,False,True,5,False,0,0
+repair_5,5,12,Door state machine,door_state,False,True,5,False,0,0
+review_then_repair_3,1,1,Reverse a string,reverse_string,True,False,0,True,0,0
+review_then_repair_3,1,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+review_then_repair_3,1,3,Safe divide,safe_divide,False,True,2,True,0,0
+review_then_repair_3,1,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+review_then_repair_3,1,5,Count character frequency,char_frequency,True,False,0,True,0,0
+review_then_repair_3,1,6,Remove duplicates while preserving order,unique_list,False,True,3,False,0,0
+review_then_repair_3,1,7,Validate email,is_valid_email,False,True,3,False,0,0
+review_then_repair_3,1,8,Compute running average,running_average,True,False,0,True,0,0
+review_then_repair_3,1,9,Find second largest,second_largest,False,True,3,False,0,0
+review_then_repair_3,1,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+review_then_repair_3,1,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+review_then_repair_3,1,12,Door state machine,door_state,True,False,0,True,0,0
+review_then_repair_3,2,1,Reverse a string,reverse_string,True,False,0,True,0,0
+review_then_repair_3,2,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+review_then_repair_3,2,3,Safe divide,safe_divide,False,True,2,True,0,0
+review_then_repair_3,2,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+review_then_repair_3,2,5,Count character frequency,char_frequency,True,False,0,True,0,0
+review_then_repair_3,2,6,Remove duplicates while preserving order,unique_list,False,True,3,False,0,0
+review_then_repair_3,2,7,Validate email,is_valid_email,False,True,3,False,0,0
+review_then_repair_3,2,8,Compute running average,running_average,True,False,0,True,0,0
+review_then_repair_3,2,9,Find second largest,second_largest,False,True,3,False,0,0
+review_then_repair_3,2,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+review_then_repair_3,2,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+review_then_repair_3,2,12,Door state machine,door_state,True,False,0,True,0,0
+review_then_repair_3,3,1,Reverse a string,reverse_string,True,False,0,True,0,0
+review_then_repair_3,3,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+review_then_repair_3,3,3,Safe divide,safe_divide,False,True,2,True,0,0
+review_then_repair_3,3,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+review_then_repair_3,3,5,Count character frequency,char_frequency,True,False,0,True,0,0
+review_then_repair_3,3,6,Remove duplicates while preserving order,unique_list,False,True,3,False,0,0
+review_then_repair_3,3,7,Validate email,is_valid_email,False,True,3,False,0,0
+review_then_repair_3,3,8,Compute running average,running_average,True,False,0,True,0,0
+review_then_repair_3,3,9,Find second largest,second_largest,False,True,3,False,0,0
+review_then_repair_3,3,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+review_then_repair_3,3,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+review_then_repair_3,3,12,Door state machine,door_state,True,False,0,True,0,0
+review_then_repair_3,4,1,Reverse a string,reverse_string,True,False,0,True,0,0
+review_then_repair_3,4,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+review_then_repair_3,4,3,Safe divide,safe_divide,False,True,2,True,0,0
+review_then_repair_3,4,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+review_then_repair_3,4,5,Count character frequency,char_frequency,True,False,0,True,0,0
+review_then_repair_3,4,6,Remove duplicates while preserving order,unique_list,False,True,3,False,0,0
+review_then_repair_3,4,7,Validate email,is_valid_email,False,True,3,False,0,0
+review_then_repair_3,4,8,Compute running average,running_average,True,False,0,True,0,0
+review_then_repair_3,4,9,Find second largest,second_largest,False,True,3,False,0,0
+review_then_repair_3,4,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+review_then_repair_3,4,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+review_then_repair_3,4,12,Door state machine,door_state,True,False,0,True,0,0
+review_then_repair_3,5,1,Reverse a string,reverse_string,True,False,0,True,0,0
+review_then_repair_3,5,2,Sum list (ignore non-numbers),sum_numbers,True,False,0,True,0,0
+review_then_repair_3,5,3,Safe divide,safe_divide,False,True,2,True,0,0
+review_then_repair_3,5,4,Find longest word in sentence,longest_word,False,True,3,False,0,0
+review_then_repair_3,5,5,Count character frequency,char_frequency,True,False,0,True,0,0
+review_then_repair_3,5,6,Remove duplicates while preserving order,unique_list,False,True,3,False,0,0
+review_then_repair_3,5,7,Validate email,is_valid_email,False,True,3,False,0,0
+review_then_repair_3,5,8,Compute running average,running_average,True,False,0,True,0,0
+review_then_repair_3,5,9,Find second largest,second_largest,False,True,3,False,0,0
+review_then_repair_3,5,10,Balanced parentheses checker,is_balanced,False,True,3,False,0,0
+review_then_repair_3,5,11,Parse CSV user data,parse_user_csv,False,True,3,False,0,0
+review_then_repair_3,5,12,Door state machine,door_state,True,False,0,True,0,0
